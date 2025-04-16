@@ -1,0 +1,46 @@
+body{
+    background-image: url(/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+}
+
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse ;
+    
+    
+}
+
+th{
+    border: 5px solid rgb(253, 109, 109);
+    text-align: left;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+td{
+    border: 5px solid rgb(194, 0, 0);
+    text-align: left;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.imagen{
+    display: block;
+    border: 1px solid black;
+    margin: auto;
+    width: 200px;
+}
